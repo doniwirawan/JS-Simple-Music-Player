@@ -11,11 +11,11 @@ const title = document.querySelector('#title');
 const cover = document.querySelector('#cover');
 
 //song list
-const songs = ['hey', 'summer', 'ukulele'];
+const songs = ['paradise', 'bali', 'chill'];
 
 
 // track song
-let songIndex = 2;
+let songIndex = songs.length - 1;
 
 
 loadSong(songs[songIndex]);
