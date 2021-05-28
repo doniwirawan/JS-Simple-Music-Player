@@ -66,8 +66,8 @@ h1 {
 }
 
 .img-container {
-	width: 95%;
-	height: 65vh;
+	width: 440px;
+	height: 440px;
 	margin: 0 auto;
 	border-radius: 5px;
 	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);

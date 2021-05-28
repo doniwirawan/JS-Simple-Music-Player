@@ -11,7 +11,7 @@ const title = document.querySelector('#title');
 const cover = document.querySelector('#cover');
 
 //song list
-const songs = ['paradise', 'bali', 'chill'];
+const songs = ['dont hold me down', 'need you', 'time travel'];
 
 
 // track song
