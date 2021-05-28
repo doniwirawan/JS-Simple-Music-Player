@@ -4,6 +4,7 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	box-sizing: border-box;
 	color: rgb(43, 43, 43);
+	user-select: none;
 }
 body {
 	overflow: none;
@@ -26,8 +27,7 @@ h1 {
 .music-info {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	align-items: left;
 	width: 100%;
 	margin: 0 auto;
 	position: absolute;
@@ -43,6 +43,7 @@ h1 {
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
+	text-align: left;
 }
 .progress-container {
 	width: 100%;
@@ -51,6 +52,7 @@ h1 {
 	margin-top: 10px;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 	background: transparent;
+	cursor: pointer;
 }
 .progress {
 	background-image: linear-gradient(
@@ -104,6 +106,7 @@ h1 {
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
+	cursor: pointer;
 }
 @media (max-width: 600px) {
 	.music-container {
