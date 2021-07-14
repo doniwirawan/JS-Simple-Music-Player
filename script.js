@@ -12,10 +12,12 @@ const cover = document.querySelector('#cover');
 
 //song list
 const songs = ['dont hold me down', 'need you', 'time travel'];
+const musicians = ['wooley, heuse', 'if found', 'Le Duke, MIDNIGHT CVLT']
 
 
 // track song
 let songIndex = songs.length - 1;
+// let musicianIndex = musicians.length - 1;
 
 
 loadSong(songs[songIndex]);
@@ -53,6 +55,8 @@ function prevSong() {
     }
 
     loadSong(songs[songIndex]);
+    // loadSong(songs[songIndex], musicians[musicianIndex]);
+
     playSong();
 }
 //next song
@@ -64,6 +68,8 @@ function nextSong() {
     }
 
     loadSong(songs[songIndex]);
+    // loadSong(songs[songIndex], musicians[musicianIndex]);
+
     playSong();
 }
 

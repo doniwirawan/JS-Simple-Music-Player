@@ -6,15 +6,18 @@
 	color: rgb(43, 43, 43);
 	user-select: none;
 }
+
 body {
 	overflow: none;
 }
+
 .music-container {
 	width: 600px;
 	height: 100vh;
 	margin: 0 auto;
 	position: relative;
 }
+
 h1 {
 	text-align: center;
 	padding: 10px 0 30px 0;
@@ -24,6 +27,7 @@ h1 {
 	background-clip: text;
 	color: transparent;
 }
+
 .music-info {
 	display: flex;
 	flex-direction: column;
@@ -36,6 +40,7 @@ h1 {
 	right: 0;
 	padding: 10px;
 }
+
 .title {
 	text-transform: capitalize;
 	font-size: 25px;
@@ -45,6 +50,7 @@ h1 {
 	color: transparent;
 	text-align: left;
 }
+
 .progress-container {
 	width: 100%;
 	border: 1px solid rgb(208, 208, 208);
@@ -54,31 +60,33 @@ h1 {
 	background: transparent;
 	cursor: pointer;
 }
+
 .progress {
-	background-image: linear-gradient(
-		to right,
-		rgba(124, 60, 213, 0.907),
-		rgba(149, 0, 255, 0.872)
-	);
+	background-image: linear-gradient(to right,
+			rgba(124, 60, 213, 0.907),
+			rgba(149, 0, 255, 0.872));
 	width: 100%;
 	height: 10px;
 	border-radius: 5px;
 }
 
 .img-container {
-	width: 440px;
-	height: 440px;
+	width: 90%;
+	height: 65vh;
 	margin: 0 auto;
 	border-radius: 5px;
 	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
 }
+
 .img-container img {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
 	border-radius: 5px;
 	height: 100%;
+	background-size: cover;
 }
+
 .navigation {
 	width: 100%;
 	margin: 0 auto;
@@ -97,6 +105,7 @@ h1 {
 	outline: none;
 	border: none;
 }
+
 .fa-play,
 .fa-backward,
 .fa-forward,
@@ -108,6 +117,7 @@ h1 {
 	color: transparent;
 	cursor: pointer;
 }
+
 @media (max-width: 600px) {
 	.music-container {
 		width: 90%;
